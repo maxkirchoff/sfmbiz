@@ -13,7 +13,7 @@ body, body.sfm1 {
 
 body.sfm2 {
   background-image: url('/assets/img/sexfuckmaster-2.png');
-  background-position: center center;
+  background-position: center top;
 }
 
 body.sfm3 {
@@ -55,55 +55,40 @@ h1 {
   text-shadow: -1vw 1vw 0 #000;
 }
 
-#buttons {
+button {
+  background: transparent;
+  outline: none;
+  border: none;
+  border-radius: none;
+  box-shadow: none;
   position: fixed;
-  bottom: 5px;
-  left: 10px;
-  z-index:99999;
+  bottom: 1vw;
+  right: 1vw;
+  z-index: 99999;
 }
-#reset {
-  margin-top: 10px;
-  margin-left: 5px;
-  float: left;
+
+button {
+  display: none;
 }
-.color {
-  width: 20px;
-  height: 20px;
-  float: left;
-  margin-top: 10px;
-  margin-left: 5px;
-  cursor: pointer;
-  border: 1px solid #000;
-  text-align: center;
-}
-#red {
-  background-color: red;
-}
-#blue {
-  background-color: blue;
-}
-#green {
-  background-color: green;
-}
-#purple {
-  background-color: purple;
-}
-#yellow {
-  background-color: yellow;
-}
-#orange {
-  background-color: orange;
-}
-#pink {
-  background-color: pink;
-}
-#black {
-  background-color: black;
-}
-#white {
- background-color: white;
-}
-#ebebeb {
-  background-color: #ebebeb;
-  margin-right: 20px;
+
+@media only screen and (max-width: 800px) {
+  button {
+    display: block;
+    width: 150px;
+    height: auto;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-radius: none;
+    box-shadow: none;
+    position: fixed;
+    bottom: 1vw;
+    right: 1vw;
+    z-index: 99999;
+  }
+
+  button img {
+    width: 100%;
+    height: auto;
+  }
 }

@@ -12,7 +12,11 @@
   </iframe>
   <audio autoplay loop id="playAudio">
       <source src="assets/311-all-mixed-up.mp3">
-    </audio>
+  </audio>
+  <audio loop id="mobilePlayAudio">
+      <source src="assets/311-all-mixed-up.mp3">
+  </audio>
+   <button onclick="document.getElementById('mobilePlayAudio').play()"><img src="/assets/img/311.png"></button>
 </section>
 
 
