@@ -1,0 +1,104 @@
+body, body.sfm1 {
+  transition: none;
+  background-image: url('/assets/img/sexfuckmaster-1.png');
+  background-size: cover;
+  background-position: center top;
+}
+
+body.sfm2 {
+  background-image: url('/assets/img/sexfuckmaster-2.png');
+  background-position: center center;
+}
+
+body.sfm3 {
+  background-image: url('/assets/img/sexfuckmaster-4.png');
+  background-position: center 20%;
+}
+
+.site-container {
+  max-width: 1400px;
+  position: absolute;
+  top: 20px;
+  left: 5%;
+  right: 5%;
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🍆</text></svg>") 16 0,auto; /*emojicursor.app*/
+}
+
+h1 {
+  font-family: 'Creepster', cursive;
+  color: pink;
+  font-size: 8vw;
+  font-weight: normal;
+  width: 30vw;
+  line-height: 1.2;
+  position: fixed;
+  top: 5vw;
+  left:5vw;
+  z-index:9999;
+  outline: none;
+  text-shadow: -1vw 1vw 0 #000;
+}
+
+#buttons {
+  position: fixed;
+  bottom: 5px;
+  left: 10px;
+  z-index:99999;
+}
+#reset {
+  margin-top: 10px;
+  margin-left: 5px;
+  float: left;
+}
+.color {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  border: 1px solid #000;
+  text-align: center;
+}
+#red {
+  background-color: red;
+}
+#blue {
+  background-color: blue;
+}
+#green {
+  background-color: green;
+}
+#purple {
+  background-color: purple;
+}
+#yellow {
+  background-color: yellow;
+}
+#orange {
+  background-color: orange;
+}
+#pink {
+  background-color: pink;
+}
+#black {
+  background-color: black;
+}
+#white {
+ background-color: white;
+}
+#ebebeb {
+  background-color: #ebebeb;
+  margin-right: 20px;
+}

@@ -1,0 +1,19 @@
+<!-- index.nunjucks -->
+
+{% set pageID = 'home' %}
+
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<section id="mission-header" class="main-heading">
+  <h1>Welcome to your paradise.</h1>
+
+  <iframe src="assets/311-all-mixed-up.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+  </iframe>
+  <audio autoplay loop id="playAudio">
+      <source src="assets/311-all-mixed-up.mp3">
+    </audio>
+</section>
+
+
+{% endblock %}
