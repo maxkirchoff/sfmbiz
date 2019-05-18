@@ -14,14 +14,6 @@
   </head>
   <body id="{{ pageID }}">
     <canvas width="1000" height="800" id="art"></canvas>
-    <div id="buttons">
-    <input type="button" id="reset" value="Reset"/>
-    <div id='purple' class="color"></div>
-    <div id='yellow' class="color"></div>
-    <div id='pink' class="color"></div>
-    <div id='black' class="color"></div>
-    <div id='white' class="color"></div>
-  </div>
 
     <div class="site-container">
 

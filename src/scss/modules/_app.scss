@@ -3,6 +3,12 @@ body, body.sfm1 {
   background-image: url('/assets/img/sexfuckmaster-1.png');
   background-size: cover;
   background-position: center top;
+  overflow: hidden;
+  position: fixed;
+  top:0;
+  bottom: 0;
+  left:0;
+  right:0;
 }
 
 body.sfm2 {
@@ -25,7 +31,6 @@ body.sfm3 {
 
 canvas {
   width: 100vw;
-  height: 100vh;
   position: fixed;
   top: 0;
   bottom: 0;
