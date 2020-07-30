@@ -452,22 +452,21 @@ button {
   z-index: 99999; }
 
 button {
-  display: none; }
-
-@media only screen and (max-width: 800px) {
-  button {
-    display: block;
-    width: 150px;
-    height: auto;
-    background: transparent;
-    outline: none;
-    border: none;
-    border-radius: none;
-    box-shadow: none;
-    position: fixed;
-    bottom: 1vw;
-    right: 1vw;
-    z-index: 99999; }
+  display: block;
+  width: 150px;
+  height: auto;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-radius: none;
+  box-shadow: none;
+  position: fixed;
+  bottom: 1vw;
+  right: 1vw;
+  z-index: 99999; }
   button img {
     width: 100%;
-    height: auto; } }
+    height: auto; }
+  @media only screen and (min-width: 800px) {
+    button {
+      display: none; } }

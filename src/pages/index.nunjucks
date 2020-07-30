@@ -6,7 +6,7 @@
 
 {% block content %}
 <section id="mission-header" class="main-heading">
-  <h1>Welcome to your paradise.</h1>
+  <h1 contenteditable="true">Welcome to your paradise.</h1>
 
   <iframe src="assets/311-all-mixed-up.mp3" allow="autoplay" style="display:none" id="iframeAudio">
   </iframe>
